@@ -59,7 +59,7 @@ IMAGE_FETCH = bool(environ.get('IMAGE_FETCH', True))
 CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla", "Telugu", "Malayalam", "Kannada", "Marathi", "Punjabi", "Bengoli", "Gujrati", "Korean", "Gujarati", "Spanish", "French", "German", "Chinese", "Arabic", "Portuguese", "Russian", "Japanese", "Odia", "Assamese", "Urdu"]
 
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviekoodu1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviekoodu2')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/')
