@@ -72,9 +72,9 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001966055101'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-100'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/demoshort/70")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/demoshort/70")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/demoshort/70")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/demoshort/71")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/demoshort/71")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/demoshort/71")
 
 SHORTENER_API = environ.get("SHORTENER_API", "e5a0df550303e31db72c8924e40e706976a2adb2")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "Modijiurl.com")
