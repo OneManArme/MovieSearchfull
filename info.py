@@ -72,18 +72,18 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001966055101'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-100'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/demoshort/70")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/demoshort/70")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/demoshort/70")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/demoshort/")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/demoshort/")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/demoshort/")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "10c45cd3943f38044756d4822d8691efd634d174")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "krownlinks.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "ee6ed3feea08d70e8bfaf2fe30a8c72bae5baa32")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "arolinks.com")
 
-SHORTENER_API = environ.get("SHORTENER_API", "10c45cd3943f38044756d4822d8691efd634d174")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "krownlinks.com")
+SHORTENER_API = environ.get("SHORTENER_API", "ee6ed3feea08d70e8bfaf2fe30a8c72bae5baa32")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "arolinks.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "10c45cd3943f38044756d4822d8691efd634d174")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "krownlinks.com")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "ee6ed3feea08d70e8bfaf2fe30a8c72bae5baa32")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "arolinks.com")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
@@ -107,7 +107,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
