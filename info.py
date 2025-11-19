@@ -33,7 +33,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001188070894 -1001274359769 -1002341565790 -1001685364040 -100169224324 -1001775437494 -1002223699552 -1002397109795 -1002461730224 -1002063173963').split()]
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001966055101'))  
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001966055101'))  
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-100'))  
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))  
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001966055101'))  
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
 auth_grp = environ.get('AUTH_GROUP')
@@ -60,7 +60,7 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 
 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviekoodu2')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/moviekoodu2')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/')
 
@@ -95,7 +95,7 @@ PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Share & Support Us ♥️')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/jsupportgroups') 
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "TRUE")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 DELETE_TIME = int(environ.get("DELETE_TIME", "300"))  
